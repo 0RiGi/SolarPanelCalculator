@@ -180,6 +180,8 @@
 
             c.setSolarPanelSpec(CheapSP);
             c.printResults();
+
+            //comment
         }
     }
 }
