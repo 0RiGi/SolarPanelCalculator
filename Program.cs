@@ -18,6 +18,7 @@
             thicknessMM_ = thicknessMM;
             weightGrams_ = weightGrams;
 
+
             ratingKWh_ = ratingKWh;
             efficiencyPercent_ = efficiencyPercent;
             costPounds_ = costPounds;
