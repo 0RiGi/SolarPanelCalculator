@@ -155,6 +155,7 @@
         private SolarPanelSpec sps_;
     }
 
+
     class Program
     {
         static void Main(string[] args)
