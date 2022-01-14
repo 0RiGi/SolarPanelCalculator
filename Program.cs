@@ -2,6 +2,7 @@
 {
     class SolarPanelSpec
     {
+
         public SolarPanelSpec(
             double widthMM,
             double heightMM,
@@ -121,7 +122,7 @@
 
         public double maxNumberOfSolarPanelsWithinBudget()
         {
-            if (isWithinBudget()) 
+            if (isWithinBudget())
                 return getNumberOfSolarPanels();
             else
                 return System.Math.Floor(getNumberOfSolarPanels() - System.Math.Abs(howMuchAwayFromBudget()) / sps_.getCost());
@@ -131,7 +132,7 @@
         {
             return maxNumberOfSolarPanelsWithinBudget() * sps_.getWeight();
         }
-        
+
         public void printResults()
         {
             System.Console.WriteLine("the manufacturer of the solar panel is: " + sps_.getManufacaturer() +" and the roof size is: " + roofSizeM2_);
@@ -170,9 +171,9 @@
             c.printResults();
 
             c.setSolarPanelSpec(CheapSP);
-            c.printResults(); 
-            
-            
+            c.printResults();
+
+
             c.roofSizeM2_ = 20;
 
             c.setSolarPanelSpec(PremiumSP);
